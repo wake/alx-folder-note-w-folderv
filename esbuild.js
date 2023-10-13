@@ -49,7 +49,7 @@ const isProd = process.env.BUILD === "production";
       define: {
         "process.env.NODE_ENV": JSON.stringify(process.env.BUILD),
       },
-      outfile: "build/main.js",
+      outfile: "main.js",
       plugins: [
         lessLoader({
           javascriptEnabled: true,
